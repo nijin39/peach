@@ -39,7 +39,7 @@ module.exports = {
     "react/jsx-curly-newline": "off", // 새 라인에 {} 사용 가능하다.
     "react/jsx-filename-extension": [
       1,
-      { extensions: [".js", ".jsx"] }, // jsx사용가능한 확장자 설정
+      { extensions: [".js", ".jsx", ".ts", ".tsx"] }, // jsx사용가능한 확장자 설정
     ],
     "import/extensions": [
       "error",

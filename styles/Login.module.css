@@ -15,66 +15,138 @@
   width: 360px;
   height: 760px;
 
-  background-size: cover;
-  background: linear-gradient(0deg, rgba(77, 77, 77, 0.73), rgba(77, 77, 77, 0.73)), url("../public/peach.jpg") no-repeat, #F5F5F5;
+  background-color: white;
 }
 
 .title {
   position: absolute;
-  width: 391px;
-  height: 174px;
-  left: 24px;
-  top: 407px;
+  width: 89px;
+  height: 18px;
+  left: calc(50% - 89px/2 + 0.5px);
+  top: calc(50% - 18px/2 - 341px);
 
-  font-family: Noto Sans CJK KR;
+  font-family: Poppins;
   font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 71px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  /* identical to box height, or 100% */
+
   display: flex;
   align-items: center;
-
-  color: #EACECE;
-
-  mix-blend-mode: normal;
-}
-
-.subTitle {
-  position: absolute;
-  width: 391px;
-  height: 174px;
-  left: 24px;
-  top: 545px;
-
-  font-family: Noto Sans CJK KR;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 36px;
-  display: flex;
-  align-items: center;
-
-  color: #EBDEDE;
-
-  mix-blend-mode: normal;
-}
-
-.moveButton {
-  position: absolute;
-  width: 45px;
-  height: 45px;
-  right: 24px;
-  top: 609px;
   text-align: center;
-  border-radius: 50%;
-  vertical-align: middle;
-  background: #F09B9B;
+  letter-spacing: 0.3px;
+
+  /* Ink/Darkest */
+
+  color: #090A0A;
 }
 
-.arrowForward {
+.emailInput {
   position: absolute;
-  width: 36px;
-  height: 36px;
-  right: 7px;
-  top: 6px;
+  width: 312px;
+  height: 56px;
+  left: 24px;
+  top: 89px;
+
+  background: #FFF6F5;
+  border-radius: 10px;
+}
+
+.emailInputText {
+  position: absolute;
+  left: 24px;
+  top: 20px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 15px;
+  /* or 100% */
+
+  letter-spacing: 0.3px;
+
+  color: rgba(28, 36, 57, 0.6);
+}
+
+.passwordInput {
+  position: absolute;
+  width: 312px;
+  height: 56px;
+  left: 24px;
+  top: 160px;
+
+  background: #FFF6F5;
+  border-radius: 10px;
+}
+
+.passwordInputText {
+  position: absolute;
+  left: 24px;
+  top: 20px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 15px;
+  /* or 100% */
+
+  letter-spacing: 0.3px;
+
+  color: rgba(28, 36, 57, 0.6);
+}
+
+.passwordShowIcon {
+  position: absolute;
+  right: 30px;
+  top: 18px;
+}
+
+.findPasword {
+
+  position: absolute;
+  width: 135px;
+  height: 27px;
+  left: 26px;
+  top: 231px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 180%;
+  /* identical to box height, or 27px */
+
+
+  color: #EA4335;
+}
+
+.loginButton {
+  position: absolute;
+  height: 56px;
+  left: 24px;
+  right: 24px;
+  top: 328px;
+
+  text-align: center;
+
+  background: #F09B9B;
+  box-shadow: 0px 10px 20px rgba(58, 41, 106, 0.2);
+  border-radius: 10px;
+}
+
+.loginButton span {
+
+  top: 10px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 180%;
+  /* identical to box height, or 27px */
+
+  color: #FFFFFF;
 }
