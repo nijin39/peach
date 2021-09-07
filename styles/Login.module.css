@@ -1,0 +1,80 @@
+/*.container {*/
+/*  min-height: 100vh;*/
+/*  padding: 0 0.5rem;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  height: 100vh;*/
+/*}*/
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.container {
+  position: relative;
+  width: 360px;
+  height: 760px;
+
+  background-size: cover;
+  background: linear-gradient(0deg, rgba(77, 77, 77, 0.73), rgba(77, 77, 77, 0.73)), url("../public/peach.jpg") no-repeat, #F5F5F5;
+}
+
+.title {
+  position: absolute;
+  width: 391px;
+  height: 174px;
+  left: 24px;
+  top: 407px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 71px;
+  display: flex;
+  align-items: center;
+
+  color: #EACECE;
+
+  mix-blend-mode: normal;
+}
+
+.subTitle {
+  position: absolute;
+  width: 391px;
+  height: 174px;
+  left: 24px;
+  top: 545px;
+
+  font-family: Noto Sans CJK KR;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+
+  color: #EBDEDE;
+
+  mix-blend-mode: normal;
+}
+
+.moveButton {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  right: 24px;
+  top: 609px;
+  text-align: center;
+  border-radius: 50%;
+  vertical-align: middle;
+  background: #F09B9B;
+}
+
+.arrowForward {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  right: 7px;
+  top: 6px;
+}
