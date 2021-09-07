@@ -2,8 +2,8 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import {HiArrowNarrowRight} from "react-icons/all";
-import {white} from "colorette";
+// import { HiArrowNarrowRight } from "react-icons/all";
+import { white } from "colorette";
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         </div>
         <div className={styles.moveButton}>
             <div className={styles.arrowForward}>
-                <HiArrowNarrowRight size={32} color="#ffffff" />
+                {/*<HiArrowNarrowRight size={32} color="#ffffff" />*/}
             </div>
         </div>
       </div>
